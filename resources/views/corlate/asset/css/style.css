@@ -1,0 +1,356 @@
+@font-face{
+	font-family: Roboto-bold;
+	src: url('../fonts/roboto/Roboto-bold.woff');
+}
+
+@font-face{
+	font-family: Roboto-Regular;
+	src: url('../fonts/roboto/Roboto-Regular.woff');
+}
+
+@font-face {
+	font-family: Roboto-Thin;
+	src: url('../fonts/roboto/Roboto-Thin.woff');
+}
+
+@font-face {
+	font-family: MuseoSans;
+	src: url('../fonts/museo/MuseoSans.otf');
+}
+/* home */
+img#image-work {
+	width: 100%;
+}
+ul.list-menu-type{	
+	list-style-type: none;
+	position: fixed;
+	top: 0%;
+	margin-left: 5px;
+}
+li.kata {
+	float: left;
+	margin: 10px 10px;
+	padding: 0;
+}
+
+
+/*img.logo-usaha {
+	position: fixed;
+	top: 0;
+	left: 2%;
+	width: 13%;
+	height: 13%;
+}*/
+a {
+	color: #e0e0e0;
+	font-family: Roboto-bold;
+	font-size: 23px;
+}
+a#join-kelas{
+	padding-left: 180px;
+}
+a:hover {
+	color: white;
+}
+div.page {
+	position: absolute;
+	top: 0;
+}
+
+div.selengkapnya {
+	position: fixed;
+	top: 37%;
+	left: 38%;
+}
+div.selengkapnya-1 {
+	position: fixed;
+	top: 73%;
+	left: 37%;
+}
+div.selengkapnya-0{
+	position: fixed;
+	top: 58%;
+	left: 17%;
+}
+
+p.loker-i{
+	font-family: Roboto-bold;
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	border: 10px solid white;
+	margin: 0;
+	padding: 0 6px;
+}
+
+h3.detail-lok {
+	font-family: Roboto-bold;
+	color: white;
+}
+
+
+div.selengkapnya-1 a#selengkapnya-class{
+	
+	font-family: Roboto-bold;
+	font-size: 25px;
+	color: white;
+	background-color: #00695c;
+	padding: 13px 10px;
+	border-radius: 3px;
+}
+
+div.selengkapnya-1 a#selengkapnya-class:hover {
+	background-color: #004d40;
+}
+
+div.page-about {
+	margin: 0;
+	padding: 0;
+}
+
+a.font-rob {
+	font-family: Roboto-Regular;
+	font-size: 20px;
+}
+
+a.font-rob:active {
+	color: red;
+}
+
+div.container-fluid {
+	padding: 0px 10px;
+	background-color: #37474f;
+	color: white;
+}
+
+a.special-font{
+	color: blue;
+}
+
+
+
+img.icon-task {
+	width: 50px;
+	height: 50px;
+	margin-right: 20px;
+}
+
+form.daftar-member {
+	margin: 50px 0 80px 40px;
+}
+
+button {
+	margin-top: 0;
+	padding: 0;
+}
+
+div.content-1{
+	margin-top: 50px;
+}
+
+hr.cross-area {
+	border-width: 10px;
+	border-color: #0d47a1;
+}
+img.image-daftar {
+	width: 45%;
+	height: 65%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-top: 130px;
+	margin-right: 20px;
+}
+
+div.no-akun {
+	margin-top: 10px;
+	font-size: 15px;
+	font-family: Roboto-Regular;
+}
+
+a.daftar-link-php {
+	font-size: 18px;
+}
+
+img.image-login {
+	width: 45%;
+	height: 65%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+
+h1.judul-form {
+	font-family: Roboto-bold;
+	margin-left: 200px;
+}
+
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: 16px Roboto-Regular;
+
+	padding: 5px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h6{
+	color:  #ffffff;
+	font: 22px 'Cookie', Roboto-bold;
+	margin: 10px 0 0 0;
+}
+
+.footer-distributed h6 span{
+	color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
